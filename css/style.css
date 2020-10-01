@@ -151,3 +151,15 @@ p {
 .iconos {
     font-size: 3rem;
 }
+form {
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+form legend {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primario);
+    margin: 3rem auto;
+}
