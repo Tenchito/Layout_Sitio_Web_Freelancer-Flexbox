@@ -163,3 +163,28 @@ form legend {
     color: var(--primario);
     margin: 3rem auto;
 }
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.campo label {
+    flex: 0 0 90px;
+    padding-top: .5rem;
+    color: #FFFFFF;
+}
+.campo input {
+    flex: 1;
+    height: 4rem;
+}
+.campo textarea {
+    flex: 1;
+    height: 6rem;
+}
+.w-100 {
+    flex: 0 0 100%;
+}
+.enviar {
+    display: flex;
+    justify-content: flex-end;
+}
