@@ -45,3 +45,30 @@ body {
         margin-bottom: 0;
     }
 }
+.hero {
+    height: 45rem;
+    background-image: url(../img/hero.jpg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::after {
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.contenedor-hero {
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.contenedor-hero i {
+    font-size: 5rem;
+    color: var(--primario);
+}
