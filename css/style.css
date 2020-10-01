@@ -1,3 +1,11 @@
+:root {
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --oscuro: #212121;
+    --gris: #757575;
+
+    --anchoPantalla: 1200px;
+}
 html {
     box-sizing: border-box;
     min-height: 100%;
@@ -71,4 +79,20 @@ body {
 .contenedor-hero i {
     font-size: 5rem;
     color: var(--primario);
+}
+.boton {
+    background-color: var(--secundario);
+    padding: 1rem 5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.2rem;
+    border-radius: .5rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
 }
